@@ -5,3 +5,4 @@ Well known systemless hosts module from [Magisk](https://github.com/topjohnwu/Ma
 - Download [latest release](https://github.com/dchristl/KernelSU-systemless-hosts/releases) to your mobile
 - Open KernelSU and install zip in Module section
 - Reboot
+- Update your hosts file with [AdAway](https://adaway.org/)
