@@ -15,15 +15,15 @@ jobs:
       - name: Zip archive
         run: |
              cd src
-             zip -r ../hosts.zip *
+             zip -r ../kernel-su-hosts.zip *
 
       - name: Create Release
         uses: "marvinpinto/action-automatic-releases@latest"         
         with:
             repo_token: "${{ secrets.GITHUB_TOKEN }}"
-            automatic_release_tag: latest_release
-            title: latest_release
-            prerelease: false
+            automatic_release_tag: v1.0.0
+            title: v1.0.0
+            prerelease: true
             files: |
               *.zip
 
