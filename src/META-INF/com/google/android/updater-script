@@ -1,1 +1,16 @@
-#MAGISK
+#!/sbin/sh
+
+#################
+# Initialization
+#################
+
+umask 022
+
+
+OUTFD=$2
+ZIPFILE=$3
+
+mount /data 2>/dev/null
+
+install_module
+exit 0
