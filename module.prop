@@ -1,0 +1,6 @@
+id=ksuhosts
+name=Systemless hosts for KernelSU
+version=1.0
+versionCode=1
+author=dchristl
+description=Systemless hosts for Ksu
